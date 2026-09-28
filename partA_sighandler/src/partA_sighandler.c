@@ -1,10 +1,5 @@
 /*
  * Bhavay Garg
- * 041102440
- *
- * partA_sighandler.c -- Catches SIGUSR1 signal
- *
- * CST8244 Lab 3 - Part A
  * This program demonstrates handling of SIGUSR1 signal.
  * The program loops until it receives SIGUSR1, then exits gracefully.
  */
