@@ -1,10 +1,5 @@
 /*
  * Bhavay Garg
- * 041102440
- *
- * partB_sigproc.c -- Forks child processes that handle SIGUSR1
- *
- * CST8244 Lab 3 - Part B
  * Parent creates N children, each child waits for SIGUSR1 signal.
  * Parent REFUSES to die while children are running (prevents orphans/zombies).
  * Parent waits for all children to finish before exiting.
